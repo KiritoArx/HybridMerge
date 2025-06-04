@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+cpp/build/
+
+# Compiled C++ executables and objects (if not in cpp/build/)
+*.exe
+*.out
+*.o
+*.obj
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# IDE / Editor specific
+.vscode/
+*.code-workspace
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sublime-project
+*.sublime-workspace
+
+# Data files (if very large and not meant to be versioned)
+# Consider Git LFS for large data files if they MUST be versioned.
+# Otherwise, list specific large data files or patterns.
+# data/expert_games.jsonl # Example if it gets very large; for now, maybe keep it if small enough for BC testing.
+# data/*.zip # If you store large datasets this way
+
+# Model files (these are outputs of training, not source code)
+models/*.pt
+models/*.zip
+
+# Log files
+*.log
+logs/
+ppo_tensorboard_logs/
+# If you have other specific log directories
+
+# OS-specific
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Other temporary files
+*.tmp
+*.swp
+*~

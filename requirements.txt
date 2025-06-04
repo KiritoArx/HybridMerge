@@ -1,0 +1,9 @@
+gymnasium
+stable-baselines3[extra]
+torch
+numpy
+matplotlib
+tqdm
+pybind11
+# Add any other specific Python libraries you've installed for the project
+# e.g., sb3-contrib if you use it later
