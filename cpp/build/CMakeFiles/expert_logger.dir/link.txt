@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\expert_logger.dir/objects.a
+C:\ProgramData\mingw64\mingw64\bin\ar.exe qc CMakeFiles\expert_logger.dir/objects.a @CMakeFiles\expert_logger.dir\objects1.rsp
+C:\ProgramData\mingw64\mingw64\bin\c++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\expert_logger.dir/objects.a -Wl,--no-whole-archive -o expert_logger.exe -Wl,--out-implib,libexpert_logger.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\expert_logger.dir\linkLibs.rsp
