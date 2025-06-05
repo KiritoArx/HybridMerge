@@ -14,7 +14,7 @@ if PROJECT_ROOT not in sys.path:
 from src.env.merge_env import MergeEnv # Your custom environment
 
 # --- Configuration ---
-PPO_MODEL_LOAD_PATH = os.path.join("models", "ppo_preview_v2_deep_explore_final.zip") # Make sure this points to the model you want to test
+PPO_MODEL_LOAD_PATH = os.path.join("models", "best_models_phase5_scheduled_ent", "best_model.zip")# Make sure this points to the model you want to test
 NUM_EVALUATION_EPISODES = 100 # Evaluate for 100 episodes for a good average
 RENDER_DELAY_SECONDS = 0.0   # Adjust for watchability, 0 for max speed
 
